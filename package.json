@@ -1,0 +1,20 @@
+{
+  "name": "project-web-server",
+  "version": "0.0.1",
+  "description": "Servidor para web ",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Emanuel Torres",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env-var": "^7.4.1",
+    "express": "^4.19.1"
+  }
+}
